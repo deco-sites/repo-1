@@ -11,10 +11,13 @@
     },
     {
       "__resolveType": "site/sections/MainBox/LargeDisplayCard.tsx",
-      "heading": "hello"
+      "heading": "Transform Your Space with Stylish Furniture and Elegant Décor"
     },
     {
       "__resolveType": "site/sections/MainBox/SmallDisplatBox.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx"
     }
   ],
   "__resolveType": "website/pages/Page.tsx"
