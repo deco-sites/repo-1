@@ -7,14 +7,13 @@
       "title": "StoreFront"
     },
     {
-      "__resolveType": "site/sections/Navbar/Navbar.tsx"
-    },
-    {
-      "__resolveType": "site/sections/MainBox/LargeDisplayCard.tsx",
-      "heading": "Transform Your Space with Stylish Furniture and Elegant Décor"
+      "__resolveType": "site/sections/MainBox/LargeDisplayCard.tsx"
     },
     {
       "__resolveType": "site/sections/MainBox/SmallDisplatBox.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CallToActio.tsx"
     },
     {
       "__resolveType": "site/sections/Footer.tsx"

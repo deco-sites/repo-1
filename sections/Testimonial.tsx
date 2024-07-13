@@ -1,6 +1,6 @@
 export default function Testimonial(){
     return (
-        <section class="py-12 bg-gray-50 sm:py-16 lg:py-20">
+        <div class="py-12 bg-gray-50 sm:py-16 lg:py-20">
             <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div class="flex flex-col items-center">
                     <div class="text-center">
@@ -159,7 +159,7 @@ export default function Testimonial(){
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
     )
 }
