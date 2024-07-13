@@ -34,7 +34,14 @@ export type AvailableIcons =
   | "Trash"
   | "FilterList"
   | "WhatsApp"
-  | "ArrowsPointingOut";
+  | "ArrowsPointingOut"
+  |  "ShoppingBag"
+  | "lucide-house"
+  | "lucide-users"
+  | "lucide-contact"
+  | "lucide-shopping-cart"
+  | "lucide-log-out"
+  | "lucide-user-detail";
 
 interface Props extends JSX.SVGAttributes<SVGSVGElement> {
   /**

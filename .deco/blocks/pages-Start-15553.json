@@ -1,1 +1,21 @@
-{"name":"Home","path":"/","sections":[{"__resolveType":"site/sections/ItWorks.tsx","name":"It Works!"},{"__resolveType":"Footer"}],"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header/Header.tsx",
+      "title": "StoreFront"
+    },
+    {
+      "__resolveType": "site/sections/Navbar/Navbar.tsx"
+    },
+    {
+      "__resolveType": "site/sections/MainBox/LargeDisplayCard.tsx",
+      "heading": "hello"
+    },
+    {
+      "__resolveType": "site/sections/MainBox/SmallDisplatBox.tsx"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}
