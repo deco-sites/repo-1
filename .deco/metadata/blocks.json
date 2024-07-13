@@ -44,5 +44,13 @@
   "/.deco/blocks/deco-htmx.json": {
     "blockType": "apps",
     "__resolveType": "site/apps/deco/htmx.ts"
+  },
+  "/.deco/blocks/Testimonial.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Testimonial/Testimonial.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FCallToActio.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/CallToActio.tsx"
   }
 }
