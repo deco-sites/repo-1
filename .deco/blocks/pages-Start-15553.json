@@ -7,13 +7,16 @@
       "title": "StoreFront"
     },
     {
-      "__resolveType": "site/sections/MainBox/LargeDisplayCard.tsx"
+      "__resolveType": "site/sections/Hero.tsx"
     },
     {
-      "__resolveType": "site/sections/MainBox/SmallDisplatBox.tsx"
+      "__resolveType": "site/sections/ProductFeatures.tsx"
     },
     {
-      "__resolveType": "site/sections/CallToActio.tsx"
+      "__resolveType": "site/sections/Testimonial.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CallToAction.tsx"
     },
     {
       "__resolveType": "site/sections/Footer.tsx"
