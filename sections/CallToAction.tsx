@@ -1,7 +1,13 @@
+interface Props {
+  /**
+  * @description The description of name.
+  */
+  name?: string;
+}
 
-
-export default function Section() {
+export default function Section({ name = "Capy" }: Props) {
   return (
+
     <section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
     <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 md:grid-cols-2 md:gap-x-16 lg:gap-x-24 gap-y-10">

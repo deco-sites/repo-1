@@ -1,13 +1,12 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import Icon from "site/components/ui/Icon.tsx";
+
 interface Props {
 
 }
 
-function Footer({
- 
-}: Props) {
+export default function Footer() {
   return (
     <section class="py-10 bg-gray-50 sm:pt-16 lg:pt-24">
     <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
@@ -128,4 +127,3 @@ function Footer({
 )
 }
 
-export default Footer;
