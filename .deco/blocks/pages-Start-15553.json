@@ -4,10 +4,11 @@
   "sections": [
     {
       "__resolveType": "site/sections/Header/Header.tsx",
-      "title": "StoreFront"
+      "title": "rrrrrrrrrrrrrrrrrrr"
     },
     {
-      "__resolveType": "site/sections/Hero.tsx"
+      "__resolveType": "site/sections/Hero.tsx",
+      "heading": "hellow r"
     },
     {
       "__resolveType": "site/sections/ProductFeatures.tsx"
