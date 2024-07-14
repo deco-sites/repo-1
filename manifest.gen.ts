@@ -4,31 +4,23 @@
 
 import * as $$$$$$$$$$$0 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
-import * as $$$$$$0 from "./sections/CallToActio.tsx";
-import * as $$$$$$1 from "./sections/CallToAction.tsx";
-import * as $$$$$$2 from "./sections/Footer.tsx";
-import * as $$$$$$3 from "./sections/Header/Header.tsx";
-import * as $$$$$$4 from "./sections/Hero.tsx";
-import * as $$$$$$5 from "./sections/ItWorks.tsx";
-import * as $$$$$$6 from "./sections/MainBox/SmallDisplatBox.tsx";
-import * as $$$$$$7 from "./sections/Navbar/Navbar.tsx";
-import * as $$$$$$8 from "./sections/ProductFeatures.tsx";
-import * as $$$$$$9 from "./sections/Testimonial.tsx";
-import * as $$$$$$10 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$0 from "./sections/CallToAction.tsx";
+import * as $$$$$$1 from "./sections/Footer.tsx";
+import * as $$$$$$2 from "./sections/Header/Header.tsx";
+import * as $$$$$$3 from "./sections/Hero.tsx";
+import * as $$$$$$4 from "./sections/ProductFeatures.tsx";
+import * as $$$$$$5 from "./sections/Testimonial.tsx";
+import * as $$$$$$6 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
-    "site/sections/CallToActio.tsx": $$$$$$0,
-    "site/sections/CallToAction.tsx": $$$$$$1,
-    "site/sections/Footer.tsx": $$$$$$2,
-    "site/sections/Header/Header.tsx": $$$$$$3,
-    "site/sections/Hero.tsx": $$$$$$4,
-    "site/sections/ItWorks.tsx": $$$$$$5,
-    "site/sections/MainBox/SmallDisplatBox.tsx": $$$$$$6,
-    "site/sections/Navbar/Navbar.tsx": $$$$$$7,
-    "site/sections/ProductFeatures.tsx": $$$$$$8,
-    "site/sections/Testimonial.tsx": $$$$$$9,
-    "site/sections/Theme/Theme.tsx": $$$$$$10,
+    "site/sections/CallToAction.tsx": $$$$$$0,
+    "site/sections/Footer.tsx": $$$$$$1,
+    "site/sections/Header/Header.tsx": $$$$$$2,
+    "site/sections/Hero.tsx": $$$$$$3,
+    "site/sections/ProductFeatures.tsx": $$$$$$4,
+    "site/sections/Testimonial.tsx": $$$$$$5,
+    "site/sections/Theme/Theme.tsx": $$$$$$6,
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,

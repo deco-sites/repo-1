@@ -1,28 +1,52 @@
+import Icon from "site/components/ui/Icon.tsx";
+
 interface Props {
   /**
-  * @description The description of name.
+  * @title Headline
+  * 
   */
-  name?: string;
+  headline?: string;
+  /**
+  * @title Sub Headline
+  * 
+  */
+    subheadline?: string;
+ /**
+  * @title Sub Headline 2
+  * 
+  */
+    subheadline2?: string;
+
+ /** 
+  * @title Button Text
+  *
+  */
+  buttonText?: string;
+
 }
 
-export default function Section({ name = "Capy" }: Props) {
+
+export default function Section({
+    headline = "Connect & learn from industry experts",
+    subheadline = "Master Coding with CodeMentor",
+    subheadline2 = "Become a coder fast with CodeMentor",
+    buttonText = " Start Learning Today"
+}: Props) {
   return (
         <section class="bg-[#FCF8F1] bg-opacity-30 py-10 sm:py-16 lg:py-24">
             <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
                     <div>
-                        <p class="text-base font-semibold tracking-wider text-blue-600 uppercase">A social media for learners</p>
-                        <h1 class="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-8xl">Connect & learn from the experts</h1>
-                        <p class="mt-4 text-base text-black lg:mt-8 sm:text-xl">Grow your career fast with right mentor.</p>
+                        <p class="text-base font-semibold tracking-wider text-blue-600 uppercase"> {subheadline}</p>
+                        <h1 class="mt-4 text-4xl font-bold text-black lg:mt-8 sm:text-6xl xl:text-8xl">{headline}</h1>
+                        <p class="mt-4 text-base text-black lg:mt-8 sm:text-xl">{subheadline2}</p>
 
                         <a href="#" title="" class="inline-flex items-center px-6 py-4 mt-8 font-semibold text-black transition-all duration-200 bg-yellow-300 rounded-full lg:mt-16 hover:bg-yellow-400 focus:bg-yellow-400" role="button">
-                            Join for free
-                            <svg class="w-6 h-6 ml-8 -mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
+                            {buttonText}
+                            <Icon id="arrow-right" class="ml-8 -m-r-2 w-6 h-6"/>
                         </a>
 
-                        <p class="mt-5 text-gray-600">Already joined us? <a href="#" title="" class="text-black transition-all duration-200 hover:underline">Log in</a></p>
+                        <p class="mt-5 text-gray-600">Already have an account? <a href="#" title="" class="text-black transition-all duration-200 hover:underline">Log in</a></p>
                     </div>
 
                     <div>
