@@ -1,47 +1,12 @@
 import { asset } from "$fresh/runtime.ts";
 import type { JSX } from "preact";
 
-export type AvailableIcons =
-  | "ChevronLeft"
-  | "ChevronRight"
-  | "ChevronUp"
-  | "ChevronDown"
-  | "QuestionMarkCircle"
-  | "User"
-  | "ShoppingCart"
-  | "Bars3"
-  | "Heart"
-  | "MagnifyingGlass"
-  | "XMark"
-  | "Plus"
-  | "Minus"
-  | "MapPin"
-  | "Phone"
-  | "Elo"
-  | "Mastercard"
-  | "Visa"
-  | "Pix"
-  | "Logo"
-  | "Facebook"
-  | "Instagram"
-  | "Tiktok"
-  | "Truck"
-  | "Discount"
-  | "Return"
-  | "CreditCard"
-  | "Deco"
-  | "Discord"
-  | "Trash"
-  | "FilterList"
-  | "WhatsApp"
-  | "ArrowsPointingOut"
-  |  "ShoppingBag"
-  | "lucide-house"
-  | "lucide-users"
-  | "lucide-contact"
-  | "lucide-shopping-cart"
-  | "lucide-log-out"
-  | "lucide-user-detail";
+export type AvailableIcons = 'arrow-right'
+| 'star'
+| 'X'
+| 'facebook'
+| 'instagram'
+| 'github';
 
 interface Props extends JSX.SVGAttributes<SVGSVGElement> {
   /**

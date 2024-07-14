@@ -1,17 +1,43 @@
+import Icon from "site/components/ui/Icon.tsx";
+
 interface Props {
-  /**
-  * @description The description of name.
-  */
-  name?: string;
+    title?: string,
+    subtitle?: string, 
+    heading1?: string,
+    text1?: string,
+    heading2?: string,
+    text2?: string,
+    heading3?: string,
+    text3?: string,
+    heading4?: string,
+    text4?: string,
+    heading5?: string,
+    text5?: string,
+    heading6?: string,
+    text6?: string,
 }
 
-export default function Section({ name = "Capy" }: Props) {
-  return (
+export default function Section({ title = "Empower Your Learning Journey",
+    subtitle = "Explore what sets us part",
+    heading1= "Interactive Learning Modules",
+    text1 = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis rerum veritatis adipisci iste non placeat accusantium aliquid. Excepturi corporis pariatur aspernatur. Doloremque tenetur voluptas blanditiis corrupti minima modi sit excepturi.",
+    heading2 = "Expert Led Courses",
+    text2 = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis rerum veritatis adipisci iste non placeat accusantium aliquid. Excepturi corporis pariatur aspernatur. Doloremque tenetur voluptas blanditiis corrupti minima modi sit excepturi.",
+    heading3= "Community Support",
+    text3 = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis rerum veritatis adipisci iste non placeat accusantium aliquid. Excepturi corporis pariatur aspernatur. Doloremque tenetur voluptas blanditiis corrupti minima modi sit excepturi.",
+    heading4= "Flexible Learning Options",
+    text4 = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis rerum veritatis adipisci iste non placeat accusantium aliquid. Excepturi corporis pariatur aspernatur. Doloremque tenetur voluptas blanditiis corrupti minima modi sit excepturi.",
+    heading5= "Career Resources",
+    text5 = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis rerum veritatis adipisci iste non placeat accusantium aliquid. Excepturi corporis pariatur aspernatur. Doloremque tenetur voluptas blanditiis corrupti minima modi sit excepturi.",
+    heading6= "Personalized Progress Tracking",
+    text6 = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis rerum veritatis adipisci iste non placeat accusantium aliquid. Excepturi corporis pariatur aspernatur. Doloremque tenetur voluptas blanditiis corrupti minima modi sit excepturi."
+ }: Props) { 
+    return (
     <section class="py-12 bg-white sm:py-16 lg:py-20">
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="text-center">
-            <h2 class="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl xl:text-5xl font-pj">Make every step user-centric</h2>
-            <p class="mt-4 text-base leading-7 text-gray-600 sm:mt-8 font-pj">Lorem ipsum dolor sit amet, consectetur adipis elit</p>
+            <h2 class="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl xl:text-5xl font-pj">{title}</h2>
+            <p class="mt-4 text-base leading-7 text-gray-600 sm:mt-8 font-pj">{subtitle}</p>
         </div>
 
         <div class="grid grid-cols-1 mt-10 text-center sm:mt-16 sm:grid-cols-2 sm:gap-x-12 gap-y-12 md:grid-cols-3 md:gap-0 xl:mt-24">
@@ -21,8 +47,8 @@ export default function Section({ name = "Capy" }: Props) {
                     <path d="M13 29H1V41C1 43.209 2.791 45 5 45H13V29Z" fill="#D4D4D8" stroke="#161616" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                     <path d="M45 29H33V45H41C43.209 45 45 43.209 45 41V29Z" fill="#D4D4D8" stroke="#161616" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
-                <h3 class="mt-12 text-xl font-bold text-gray-900 font-pj">Support</h3>
-                <p class="mt-5 text-base text-gray-600 font-pj">Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
+                <h3 class="mt-12 text-xl font-bold text-gray-900 font-pj">{heading1}</h3>
+                <p class="mt-5 text-base text-gray-600 font-pj">{text1}</p>
             </div>
 
             <div class="md:p-8 lg:p-14 md:border-l md:border-gray-200">
@@ -33,8 +59,8 @@ export default function Section({ name = "Capy" }: Props) {
                     <path d="M5 17L15 7L23 15L37 1" stroke="#161616" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                     <path d="M28 1H37V10" stroke="#161616" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
-                <h3 class="mt-12 text-xl font-bold text-gray-900 font-pj">Sales</h3>
-                <p class="mt-5 text-base text-gray-600 font-pj">Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
+                <h3 class="mt-12 text-xl font-bold text-gray-900 font-pj">{heading2}</h3>
+                <p class="mt-5 text-base text-gray-600 font-pj">{text2}</p>
             </div>
 
             <div class="md:p-8 lg:p-14 md:border-l md:border-gray-200">
@@ -44,8 +70,8 @@ export default function Section({ name = "Capy" }: Props) {
                     <path d="M18 26H7V35H18V26Z" stroke="#161616" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                     <path d="M35 7H24V35H35V7Z" fill="#D4D4D8" stroke="#161616" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
-                <h3 class="mt-12 text-xl font-bold text-gray-900 font-pj">Onboarding</h3>
-                <p class="mt-5 text-base text-gray-600 font-pj">Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
+                <h3 class="mt-12 text-xl font-bold text-gray-900 font-pj">{heading3}</h3>
+                <p class="mt-5 text-base text-gray-600 font-pj">{text3}</p>
             </div>
 
             <div class="md:p-8 lg:p-14 md:border-t md:border-gray-200">
@@ -59,8 +85,8 @@ export default function Section({ name = "Capy" }: Props) {
                     <path d="M1 25H13V31H29V25H41" stroke="#161616" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                     <path d="M37 1H5C2.79086 1 1 2.79086 1 5V37C1 39.2091 2.79086 41 5 41H37C39.2091 41 41 39.2091 41 37V5C41 2.79086 39.2091 1 37 1Z" stroke="#161616" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
-                <h3 class="mt-12 text-xl font-bold text-gray-900 font-pj">Product</h3>
-                <p class="mt-5 text-base text-gray-600 font-pj">Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
+                <h3 class="mt-12 text-xl font-bold text-gray-900 font-pj">{heading4}</h3>
+                <p class="mt-5 text-base text-gray-600 font-pj">{text4}</p>
             </div>
 
             <div class="md:p-8 lg:p-14 md:border-l md:border-gray-200 md:border-t">
@@ -83,8 +109,8 @@ export default function Section({ name = "Capy" }: Props) {
                         stroke-linejoin="round"
                     />
                 </svg>
-                <h3 class="mt-12 text-xl font-bold text-gray-900 font-pj">Quality</h3>
-                <p class="mt-5 text-base text-gray-600 font-pj">Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
+                <h3 class="mt-12 text-xl font-bold text-gray-900 font-pj">{heading5}</h3>
+                <p class="mt-5 text-base text-gray-600 font-pj">{text5}</p>
             </div>
 
             <div class="md:p-8 lg:p-14 md:border-l md:border-gray-200 md:border-t">
@@ -92,8 +118,8 @@ export default function Section({ name = "Capy" }: Props) {
                     <path d="M25 7C34.941 7 43 15.059 43 25C43 34.941 34.941 43 25 43C15.059 43 7 34.941 7 25" stroke="#161616" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                     <path d="M19 1C9.059 1 1 9.059 1 19H19V1Z" fill="#D4D4D8" stroke="#161616" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
-                <h3 class="mt-12 text-xl font-bold text-gray-900 font-pj">Result</h3>
-                <p class="mt-5 text-base text-gray-600 font-pj">Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
+                <h3 class="mt-12 text-xl font-bold text-gray-900 font-pj">{heading6}</h3>
+                <p class="mt-5 text-base text-gray-600 font-pj">{text6}</p>
             </div>
         </div>
     </div>
