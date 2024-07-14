@@ -4,7 +4,7 @@ interface Props {
   /**
   * @title Heading
   */
-  heading: string;
+  heading?: string;
 
  /** 
   * @title comment text

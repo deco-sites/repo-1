@@ -27,10 +27,10 @@ interface Props {
 
 
 export default function Section({
-    subheadline = "Master Your Skills with CodeMentor",
-    headline = "Join a thriving community of software enthusiasts",
-    subheadline2 = "Accelerate your learning journey",
-    buttonText = "Start Learning Today"
+    headline = "Connect & learn from industry experts",
+    subheadline = "Master Coding with CodeMentor",
+    subheadline2 = "Become a coder fast with CodeMentor",
+    buttonText = " Start Learning Today"
 }: Props) {
   return (
         <section class="bg-[#FCF8F1] bg-opacity-30 py-10 sm:py-16 lg:py-24">
