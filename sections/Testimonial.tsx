@@ -29,7 +29,7 @@ export default function Testimonial({
     comment1 = "Joining CodeMentor was the best decision I made for my career. The courses are comprehensive, and the community support is invaluable.",
     comment2 = "The mentors and peers at CodeMentor helped me transition from a beginner to landing my dream job in tech. I'm grateful for the guidance and resources.",
     comment3 = "The interactive learning modules made complex concepts easy to grasp. I enjoyed the hands-on approach and personalized feedback from instructors.",
-}){
+}: Props){
     return (
         <div class="py-12 bg-gray-50 sm:py-16 lg:py-20">
             <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
